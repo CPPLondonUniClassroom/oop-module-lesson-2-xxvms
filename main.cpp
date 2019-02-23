@@ -3,7 +3,6 @@
 #include <sstream>
 #include <string>
 #include "EXERCISE.h"
-#include "ILogger.h"
 #include "StringLogger.h"
 
 

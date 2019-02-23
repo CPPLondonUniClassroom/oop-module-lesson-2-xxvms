@@ -11,9 +11,11 @@
 
     ILogger& StringLogger::LogError(const std::string &blah) {
       stream << "ERROR: " << blah;
+      lastError = blah;
       return *this;
     }
 
     const std::string& StringLogger::GetLastError() const{
-      return this->lastError; }
+
+      return lastError; }
 

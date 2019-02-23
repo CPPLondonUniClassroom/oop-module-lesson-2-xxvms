@@ -1,8 +1,5 @@
 #pragma once
-//#include "StringLogger.h"
 
-//class ILogger;
-class StringLogger;
 
 
 /*
