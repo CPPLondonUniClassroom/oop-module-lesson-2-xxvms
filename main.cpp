@@ -1,10 +1,11 @@
-#include "EXERCISE.h"
-#include "ILogger.h"
 #include "private/Checker.h"
 #include <iostream>
 #include <sstream>
 #include <string>
+#include "EXERCISE.h"
+#include "ILogger.h"
 #include "StringLogger.h"
+
 
 using namespace std::string_literals;
 using chk = Checker<ILogger>;

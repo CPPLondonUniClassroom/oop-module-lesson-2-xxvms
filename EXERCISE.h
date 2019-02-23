@@ -1,8 +1,8 @@
 #pragma once
-#include "ILogger.h"
+//#include "StringLogger.h"
 
-// This is for part 1
-
+//class ILogger;
+class StringLogger;
 
 
 /*

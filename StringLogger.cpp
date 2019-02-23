@@ -1,5 +1,6 @@
 #include "StringLogger.h"
 
+
 // This is for Part 2/3
    StringLogger::StringLogger(std::ostream& a) : stream{a}{}
 
